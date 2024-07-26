@@ -36,7 +36,7 @@ To integrate `SwiftDataStorage` into your Xcode project using Xcode 15 or later,
 2. Select `File` > `Swift Packages` > `Add Package Dependency...`
 3. Enter the package repository URL:
 ```
-https://github.com/JamesSedlacek/SwiftDataStorage.git
+https://github.com/seanrada/SwiftDataStorage.git
 ```
 4. Choose the version rule that makes sense for your project.
 5. Select `Add Package`.
@@ -52,7 +52,7 @@ import PackageDescription
 let package = Package(
     name: "SwiftDataStorage",
     dependencies: [
-        .package(url: "https://github.com/JamesSedlacek/SwiftDataStorage.git", branch: "main")
+        .package(url: "https://github.com/seanrada/SwiftDataStorage.git", branch: "main")
     ],
     targets: [
         .target(
